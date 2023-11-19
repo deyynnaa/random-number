@@ -1,13 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: bisque;
+  font-family: "Kanit", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  text-align: center;
+}
+
+.title {
+  padding-top: 10%;
+}
+
+.presscontainer {
+  border-radius: 30px;
+  height: 30px;
+  width: 70px;
+  background-color: white;
+}
+
+.randomcontainer {
+  padding-top: 2%;
 }
