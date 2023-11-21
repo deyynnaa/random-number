@@ -11,17 +11,18 @@ function App() {
   return (
     <div className="container">
       <header className="title">
-        <h1>Random Number Generator</h1>
-        <p>Click the button to generate a random number:</p>
+        <div className="titleRandom">
+          <h1>Random Number Generator</h1>
+        </div>
         <button onClick={generateRandomNumber} className="presscontainer">
-          Click Me
+          Click
         </button>
         <div className="randomcontainer">
           <p>Random Number:</p>
         </div>
-        <div  >
+        <div>
           {randomNumber !== null && (
-            <div>
+            <div className="numContainer">
               <h1>{randomNumber}</h1>
             </div>
           )}

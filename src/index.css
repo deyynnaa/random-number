@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Russo+One&display=swap");
 
 body {
   margin: 0;
-  background-color: bisque;
+  padding: 0;
   font-family: "Kanit", sans-serif;
+  background-image: url("../public/game.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container {
@@ -12,15 +18,28 @@ body {
 
 .title {
   padding-top: 10%;
+  color: #fff48c;
+  font-size: 25px;
+}
+
+.titleRandom {
+  font-family: "Russo One", sans-serif;
+  font-size: 40px;
+  text-shadow: 2px 4px 6px rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 255, 0.692);
 }
 
 .presscontainer {
   border-radius: 30px;
-  height: 30px;
-  width: 70px;
-  background-color: white;
+  height: 50px;
+  width: 100px;
+  background-color: #34c6ead2;
 }
 
 .randomcontainer {
   padding-top: 2%;
+}
+
+.numContainer {
+  font-size: 38px;
 }
